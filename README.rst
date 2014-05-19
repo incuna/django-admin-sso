@@ -53,13 +53,14 @@ Test report/coverage
 --------------------
 
 Test results:
+
     ......
-    ----------------------------------------------------------------------
     Ran 6 tests in 0.104s
     
     OK
 
 Coverage report:
+
     Name                         Stmts   Miss  Cover   Missing
     ----------------------------------------------------------
     admin_sso/__init__              16      2    88%   7-8
