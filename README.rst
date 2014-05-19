@@ -47,3 +47,27 @@ Remote User -> Local User
 * Set username to [not] match by.
 * Set Domain to your authenticating domain.
 * Select your local user from the User drop down.
+
+
+Test report/coverage
+--------------------
+
+Test results:
+    ......
+    ----------------------------------------------------------------------
+    Ran 6 tests in 0.104s
+    
+    OK
+
+Coverage report:
+    Name                         Stmts   Miss  Cover   Missing
+    ----------------------------------------------------------
+    admin_sso/__init__              16      2    88%   7-8
+    admin_sso/admin                 19     19     0%   1-34
+    admin_sso/auth                  65     13    80%   5-6, 19-22, 27, 37-39, 51, 54-55
+    admin_sso/default_settings      10      0   100%   
+    admin_sso/models                47      7    85%   5-7, 28, 43, 46-47
+    admin_sso/store                 68     68     0%   31-132
+    admin_sso/views                 57     57     0%   1-79
+    ----------------------------------------------------------
+    TOTAL                          282    166    41%   
